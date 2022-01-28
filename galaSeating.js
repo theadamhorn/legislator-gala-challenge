@@ -91,6 +91,7 @@ const assignSeats = () => {
 createTables();
 assignSeats();
 
+// This function takes the data fed to it when the function is called and outputs to 'output.json'
 const output = (data) => {
     fs.writeFileSync("output.json", JSON.stringify(data));
 };
